@@ -5,9 +5,9 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine($"Tunnel URL: {Environment.
+        Console.WriteLine($"API project Tunnel URL: {Environment.
             GetEnvironmentVariable("VS_TUNNEL_URL")}");
-        Console.WriteLine($"API project tunnel URL: {Environment.
+        Console.WriteLine($"WebApp project tunnel URL: {Environment.
             GetEnvironmentVariable("VS_TUNNEL_URL_MyWebApi")}");
 // </snippet1>
         var builder = WebApplication.CreateBuilder(args);
